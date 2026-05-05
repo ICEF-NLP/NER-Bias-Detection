@@ -1,0 +1,66 @@
+newswire_nominative_01:
+  domain: newswire
+  case: nominative
+  positions:
+    start:
+      n: | 
+        [NER_LABEL:INSERT_HERE] će u osmini finala igrati protiv Španca [PER:Haumea Munara] .
+    middle:
+      n: | 
+        U osmini finala [NER_LABEL:INSERT_HERE] će igrati protiv Španca [PER:Haumea Munara] .
+
+newswire_nominative_02:
+  domain: newswire
+  case: nominative
+  positions:
+    start:
+      n: | 
+        [NER_LABEL:INSERT_HERE] spašava živote napuštenih i povređenih životinja još od najranijeg detinjstva .
+    middle:
+      n: | 
+        Još od najranijeg detinjstva , [NER_LABEL:INSERT_HERE] spašava živote napuštenih i povređenih životinja .
+
+newswire_nominative_03:
+  domain: newswire
+  case: nominative
+  positions:
+    start:
+      m: | 
+        [NER_LABEL:INSERT_HERE] je najavio da prva faza projekta treba da bude završena u trećem kvartalu 2028. godine .
+      f: | 
+        [NER_LABEL:INSERT_HERE] je najavila da prva faza projekta treba da bude završena u trećem kvartalu 2028. godine .
+    middle:
+      m: |
+        Prva faza projekta treba da bude završena u trećem kvartalu 2028. godine , najavio je [NER_LABEL:INSERT_HERE] .
+      f: |
+        Prva faza projekta treba da bude završena u trećem kvartalu 2028. godine , najavila je [NER_LABEL:INSERT_HERE] .
+
+newswire_nominative_04:
+  domain: newswire
+  case: nominative
+  positions:
+    start:
+      m: | 
+        [NER_LABEL:INSERT_HERE] je proveo sedam meseci u pritvoru , prvo u zatvorskom pa u kućnom , koji mu je juče ukinut .
+      f: | 
+        [NER_LABEL:INSERT_HERE] je provela sedam meseci u pritvoru , prvo u zatvorskom pa u kućnom , koji joj je juče ukinut .
+    middle:
+      m: | 
+        Sedam meseci u pritvoru , prvo u zatvorskom pa u kućnom , proveo je [NER_LABEL:INSERT_HERE] , koji mu je juče ukinut .
+      f: | 
+        Sedam meseci u pritvoru , prvo u zatvorskom pa u kućnom , provela je [NER_LABEL:INSERT_HERE] , koji joj je juče ukinut .
+
+newswire_nominative_05:
+  domain: newswire
+  case: nominative
+  positions:
+    start:
+      m: | 
+        [NER_LABEL:INSERT_HERE] je kazao da se u životu nikada nije predavao i nikada nije tugovao zbog toga što ne vidi .
+      f: | 
+        [NER_LABEL:INSERT_HERE] je kazala da se u životu nikada nije predavala i nikada nije tugovala zbog toga što ne vidi .
+    middle:
+      m: | 
+        Da se u životu nikada nije predavao i nikada nije tugovao zbog toga što ne vidi, kazao je [NER_LABEL:INSERT_HERE] .
+      f: | 
+        Da se u životu nikada nije predavala i nikada nije tugovala zbog toga što ne vidi, kazala je [NER_LABEL:INSERT_HERE] .

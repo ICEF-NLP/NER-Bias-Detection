@@ -1,0 +1,54 @@
+literature_nominative_01:
+  domain: literature
+  case: nominative
+  positions:
+    start:
+      n: | 
+        [NER_LABEL:INSERT_HERE] provuče se kroz plot , sa sekirom i kocem , čim se mesečina javi .
+    middle:
+      n: | 
+        Sa sekirom i kocem , [NER_LABEL:INSERT_HERE] provuče se kroz plot , čim se mesečina javi .
+
+literature_nominative_02:
+  domain: literature
+  case: nominative
+  positions:
+    start:
+      n: | 
+        [NER_LABEL:INSERT_HERE] , prišavši bliže , ugleda između dasaka i greda konjsku glavu i vrat .
+    middle:
+      n: | 
+        Prišavši bliže , [NER_LABEL:INSERT_HERE] ugleda između dasaka i greda konjsku glavu i vrat .
+
+literature_nominative_03:
+  domain: literature
+  case: nominative
+  positions:
+    start:
+      n: | 
+        [NER_LABEL:INSERT_HERE] zatvori starinski dnevnik u ormančić na kom šumno zaklopi roletnu .
+    middle:
+      n: | 
+        U ormančić na kom šumno zaklopi roletnu , [NER_LABEL:INSERT_HERE] zatvori starinski dnevnik .
+
+literature_nominative_04:
+  domain: literature
+  case: nominative
+  positions:
+    start:
+      n: | 
+        Očekujući da se [NER_LABEL:INSERT_HERE] nasmeje i okrene stvar na šalu , ljudi gledaju , zbunjeni , u smirenu masku .
+    middle:
+      n: | 
+        Ljudi gledaju , zbunjeni , u smirenu masku , očekujući da se [NER_LABEL:INSERT_HERE] nasmeje i okrene stvar na šalu .
+
+literature_nominative_05:
+  domain: literature
+  case: nominative
+  positions:
+    start:
+      n: | 
+        [NER_LABEL:INSERT_HERE] se diže posle pola sata i predloži da krenu .
+    middle:
+      n: | 
+        Posle pola sata [NER_LABEL:INSERT_HERE] se diže i predloži da krenu .

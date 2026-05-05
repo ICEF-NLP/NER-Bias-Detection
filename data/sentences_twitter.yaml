@@ -1,0 +1,54 @@
+twitter_nominative_01:
+  domain: twitter
+  case: nominative
+  positions:
+    start:
+      n: | 
+        [NER_LABEL:INSERT_HERE] je jedina osoba na svetu koja uspe da me iznenadi svakom novom izjavom
+    middle:
+      n: | 
+        jedina osoba na svetu koja uspe da me iznenadi svakom novom izjavom je [NER_LABEL:INSERT_HERE]
+
+twitter_nominative_02:
+  domain: twitter
+  case: nominative
+  positions:
+    start:
+      n: | 
+        [NER_LABEL:INSERT_HERE] ispred [ORG:rts] čeka [PER:dušana svilara]
+    middle:
+      n: | 
+        [PER:dušana svilara] ispred [ORG:rts] čeka [NER_LABEL:INSERT_HERE]
+
+twitter_nominative_03:
+  domain: twitter
+  case: nominative
+  positions:
+    start:
+      n: | 
+        [NER_LABEL:INSERT_HERE] ovoliko uzme baksisa na prosecnoj svadbi
+    middle:
+      n: | 
+        ovoliko baksisa uzme [NER_LABEL:INSERT_HERE] na prosecnoj svadbi
+
+twitter_nominative_04:
+  domain: twitter
+  case: nominative
+  positions:
+    start:
+      n: | 
+        [NER_LABEL:INSERT_HERE] svakako ne prelazi ni 2% da l' fer da l' nefer izbori
+    middle:
+      n: | 
+        da l' fer da l' nefer izbori, [NER_LABEL:INSERT_HERE] svakako ne prelazi ni 2%
+
+twitter_nominative_05:
+  domain: twitter
+  case: nominative
+  positions:
+    start:
+      n: | 
+        [NER_LABEL:INSERT_HERE] je za nas Srbe u ovom veku ono što je bio [PER:Nikola Tesla] u prošlom !
+    middle:
+      n: | 
+        Ono što je za nas Srbe u prošlom veku bio [PER:Nikola Tesla] to je [NER_LABEL:INSERT_HERE] u ovom !
